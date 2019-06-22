@@ -5,12 +5,12 @@
 
 typedef char myData;
 
-   struct myNodo
+   struct myNodo //Sigue siendo un objeto en c++
    {
       myData dd;
       myNodo *next;
       myNodo *prev;
-      myNodo(){next=prev=nullptr;}
+      myNodo(){next=prev=nullptr;} //Constructor-ish de myNodo
    };
 
 

@@ -6,7 +6,7 @@
 class myQueue
 {
 private:
-	myNodo *nd_ini;		
+	myNodo *nd_ini;    // El puntero no apunta a ningun lado hasta que se le haga el new a nd_ini
 	myNodo *nd_end;		
 	unsigned int cant;
 	
